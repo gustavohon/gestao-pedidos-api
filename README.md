@@ -2,7 +2,7 @@
 
 
 
-Este projeto é a refatoração do \[projeto original com Tkinter](https://github.com/gustavohon/Gestao-de-Pedidos-para-Restaurantes), transformando-o em uma API RESTful robusta utilizando Django e Django REST Framework.
+Este projeto é um "remake" do \[projeto original com Tkinter](https://github.com/gustavohon/Gestao-de-Pedidos-para-Restaurantes), onde transformo em uma API RESTful utilizando Django e Django REST Framework.
 
 
 
