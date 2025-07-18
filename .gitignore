@@ -1,0 +1,21 @@
+ 
+# Arquivos de Ambiente Virtual
+venv/
+__pycache__/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+
+# Arquivos de dependências e de banco de dados local
+*.sqlite3
+db.sqlite3
+pip-wheel-metadata/
+
+# Arquivos de segredos (nunca versione segredos!)
+.env
+*.env
