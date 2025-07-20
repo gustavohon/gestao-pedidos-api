@@ -15,8 +15,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+# Importe a função 'include' para conectar as URLs.
+from django.urls import path, include 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # Esta é a linha que faltava!
+    # Ela conecta o "mapa da cidade" ao "mapa do bairro".
+    path('api/', include('pedidos.urls')),
 ]
