@@ -1,9 +1,9 @@
-#API de Gestão de Pedidos para Restaurantes
+# API de Gestão de Pedidos para Restaurantes
 
-##📜 Sobre o Projeto
+## 📜 Sobre o Projeto
 Este projeto é uma API RESTful completa para a gestão de um restaurante, desenvolvida com Django e Django REST Framework. Ele serve como o backend (o "cérebro") para qualquer aplicação cliente, como um site de pedidos, um aplicativo mobile ou um painel de controle interno.
 
-##✨ Funcionalidades Principais
+## ✨ Funcionalidades Principais
 Gestão de Cardápio: Operações CRUD (Criar, Ler, Atualizar, Apagar) completas para Produtos e Categorias.
 
 Gestão de Pedidos: Criação e visualização de Pedidos, incluindo os itens e suas quantidades.
@@ -23,7 +23,7 @@ A URL base para todos os endpoints é /api/.
 | GET, POST | /pedidos/ | Lista todos os pedidos ou cria um novo. |
 | GET, PUT, DELETE | /pedidos/<id>/ | Visualiza, atualiza ou apaga um pedido específico. |
 
-##🚀 Como Rodar o Projeto Localmente
+## 🚀 Como Rodar o Projeto Localmente
 Siga os passos abaixo para configurar e executar o projeto no seu ambiente de desenvolvimento.
 
 Pré-requisitos:
